@@ -157,6 +157,6 @@ if __name__ == "__main__":
 
 """
 To build the exe file:
-pyinstaller --noconfirm --onefile --windowed --icon=icon.ico your_script.py
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico --add-data "tenor.gif;." eye-blinker.py
 
 """
